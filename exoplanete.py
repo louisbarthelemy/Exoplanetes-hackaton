@@ -13,12 +13,12 @@ df.columns
 # +
 df2 = df.dropna()
 
-# on garde dans df2 seulement les exoplanètes pour lesquelles on a toutes les informati
+# on garde dans df2 seulement les exoplanètes pour lesquelles on a toutes les informations disponibles
 # -
 
 df2
 
-
+df.set_index('pl_name')
 
 
 
